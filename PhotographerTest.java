@@ -11,8 +11,8 @@ public class PhotographerTest{
   @Before
   public void setup(){
     photographer = new Photographer();
-    digitalCamera = new DigitalCamera();
-    analogCamera = new AnalogCamera();
+    digitalCamera = new DigitalCamera("EOS 5DS");
+    analogCamera = new AnalogCamera("Alpha A7R II");
   }
 
   @Test
