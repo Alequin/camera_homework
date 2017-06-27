@@ -41,6 +41,6 @@ public class PhotographerTest{
   @Test
   public void canPhotographerTakePhoto(){
     photographer.takePhoto("A nice picture", new Photo());
-    assertEquals(1, photographer.getPhotosTakenCount());
+    assertEquals(1, photographer.numberOfPhotos());
   }
 }

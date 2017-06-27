@@ -42,7 +42,7 @@ public class Photographer{
     this.journal.put(photoName, photo);
   }
 
-  public int getPhotosTakenCount(){
+  public int numberOfPhotos(){
     return this.journal.values().size();
   }
 
