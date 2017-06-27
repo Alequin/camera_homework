@@ -12,4 +12,14 @@ public class PhotographerTest{
     photographer = new Photographer();
     camera = new Camera();
   }
+
+  @Test
+  public void canAddCameraToPhotographer(){
+
+  }
+
+  @Test
+  public void canRemoveCameraFromPhotographer(){
+
+  }
 }
