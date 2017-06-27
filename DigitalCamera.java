@@ -7,7 +7,7 @@ public class DigitalCamera implements Printable{
   }
 
   public String printDetails(){
-    return "Digital Camera:" + name;
+    return "Digital Camera: " + name;
   }
 
 }

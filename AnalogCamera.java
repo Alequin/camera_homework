@@ -7,7 +7,7 @@ public class AnalogCamera implements Printable{
   }
 
   public String printDetails(){
-    return "Analog Camera:" + name;
+    return "Analog Camera: " + name;
   }
 
 }
