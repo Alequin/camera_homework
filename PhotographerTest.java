@@ -27,4 +27,14 @@ public class PhotographerTest{
     photographer.removeCamera();
     assertEquals(0, photographer.getCameraCount());
   }
+
+  @Test
+  public void canAllCameraDetailsBePrinted(){
+    String expected = "Analog Camera: Alpha A7R II\n" +
+        "Digital Camera: EOS 5DS";
+    photographer.addCamera(analogCamera);
+    photographer.addCamera(digitalCamera);
+    String result = photographer.getCameraCollectionDetails();
+    assertEquals(expected, result);
+  }
 }
