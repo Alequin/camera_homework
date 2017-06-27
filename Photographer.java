@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class Photographer{
 
-  private ArrayList<Camera> cameras;
+  private ArrayList<Printable> cameras;
 
   public Photographer(){
     cameras = new ArrayList<Camera>();
