@@ -37,4 +37,10 @@ public class PhotographerTest{
     String result = photographer.getCameraCollectionDetails();
     assertEquals(expected, result);
   }
+
+  @Test
+  public void canPhotographerTakePhoto(){
+    photographer.takePhoto("A nice picture", new Photo());
+    assertEquals(1, photographer.getPhotosTakenCount());
+  }
 }
