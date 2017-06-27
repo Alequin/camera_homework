@@ -22,4 +22,17 @@ public class Photographer{
     }
   }
 
+  public String getCameraCollectionDetails(){
+    String output = "";
+    int length = this.cameras.size();
+    for(int j=0; j<length; j++){
+      if(j < length-1){
+        output += this.cameras.get(j).printDetails() + "\n";
+      }else{
+        output += this.cameras.get(j).printDetails();
+      }
+    }
+    return output;
+  }
+
 }
