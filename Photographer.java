@@ -38,4 +38,12 @@ public class Photographer{
     return output;
   }
 
+  public void takePhoto(String photoName, Photo photo){
+    this.journal.put(photoName, photo);
+  }
+
+  public int getPhotosTakenCount(){
+    return this.journal.values().size();
+  }
+
 }
