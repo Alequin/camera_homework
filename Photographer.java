@@ -5,14 +5,14 @@ public class Photographer{
   private ArrayList<Printable> cameras;
 
   public Photographer(){
-    cameras = new ArrayList<Camera>();
+    cameras = new ArrayList<Printable>();
   }
 
   public int getCameraCount(){
     return cameras.size();
   }
 
-  public void addCamera(Camera camera){
+  public void addCamera(Printable camera){
     cameras.add(camera);
   }
 
