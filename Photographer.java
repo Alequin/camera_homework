@@ -1,11 +1,14 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Photographer{
 
   private ArrayList<Printable> cameras;
+  private HashMap<String, Photo> journal;
 
   public Photographer(){
     cameras = new ArrayList<Printable>();
+    journal = new HashMap<String, Photo>();
   }
 
   public int getCameraCount(){
